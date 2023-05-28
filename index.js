@@ -52,18 +52,18 @@ app.post("/send_mail", async (req, res) => {
   res.json({ message: "testing " });
 });
 
-app.get("/", (res, req) => {
-  res.send("root");
-});
-app.get("/about", (res, req) => {
-  res.send("about");
-});
-app.get("/work", (res, req) => {
-  res.send("work");
-});
-app.get("/contact", (res, req) => {
-  res.send("contact");
-});
+// app.get("/", (res, req) => {
+//   res.send("root");
+// });
+// app.get("/about", (res, req) => {
+//   res.send("about");
+// });
+// app.get("/work", (res, req) => {
+//   res.send("work");
+// });
+// app.get("/contact", (res, req) => {
+//   res.send("contact");
+// });
 
 app.listen(port, () => {
   console.log(`server is listening on port ${port}`);
