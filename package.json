@@ -6,9 +6,10 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "npm run index.js",
+    "deploy": "gh-pages -d index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run index.js"
   },
   "author": "",
   "license": "ISC",
